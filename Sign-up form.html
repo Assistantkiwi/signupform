@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <header>
+    <!--Breadcrumb navigation-->
+    <nav aria-label="--Breadcrumb">
+      <ol>
+        <li>
+          <a href="/Assignments/Assignment1.html">About</a>
+        </li>
+        <li>
+          <a href="/Assignments/Assignment1.html">Biography</a>
+        </li>
+        <li>Why AltSchool Africa</li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+    <!--About altschool from their website-->
+    <h1>Why AltSchool Africa</h1>
+    <h2>Reimagining the African Dream</h2>
+    <h3>AltSchool Africa is where dreams come to life. We truly believe there is no limit to what we can be and we exist to help people reach their full potential. With our carefully crafted learning courses and diploma programs we will meet you where you are, and take you to where you want to be in your career.</h3>
+    <details>
+      <summary>Read more</summary>
+<p><strong>Learn anywhere</strong><br />
+  Learn in your own space, at your own pace. Make the world your classroom. Choose where you want to learn, we're here for you every step of the way!<br />
+  <strong>Learning is fun</strong><br />
+  Say goodbye to outdated curriculums, bulky lecture notes, and boring lectures. We’ve built a whole new world of interactive, relatable learning that stimulates your mind, encourages critical thinking, and fuels your passion for knowledge<br />
+  <strong>Learning is Communal</strong><br />
+  We ensure learners are working together, sharing knowledge, and collaborating to enhance their understanding. You are not alone with your learning journey.<br />
+  <strong>Learn from the best</strong><br />
+  Our instructors are carefully selected to give you the best learning outcome. They are the best on the subject matter and poised to give you the learning you deserve.<br />
+  <strong>Learn the profitable way</strong><br />
+  AltSchool Africa helps you learn the skills you need to build the career you want. Whether you're exploring a career path, embracing a new challenge, or acquiring new skills for your career, we will help you to achieve the desired results.</p>
+  </details>
+    <!--Starting sign up form here-->
+   <fieldset>
+         <legend><strong>Application Form</strong></legend>
+          <p>Fill in your details</p>
+            <div style="display:flex;">
+            <div class="leftside form">
+                <!--Leftside form comes here-->
+             <label>First Name <br />            
+              <input type="text" name="First Name" required="required" />
+             </label><br />
+             <label>Gender <br />
+               <select name="Gender" required="required" >
+                 <option value="Female">Female</option>
+                 <option value="Male">Male</option>
+                 <option value="Others">Others</option>
+               </select>
+             </label><br />  
+             <label>Email address<br />
+              <input type="email" name="Email address" required="required" />
+             </label><br />
+             <label>Country<br />
+               <select name="Country" required="required" >
+                 <option vale="Nigeria">Nigeria</option>
+                 <option value="Kenya">Kenya</option>
+                 <option value="United Kingdom">United Kingdom</option>
+                 <option value="Ghana">Ghana</option>
+                 <option value="Austria">Austria</option>
+               </select>
+             </label><br />
+             <label>Employment Status<br />
+               <select name="Employment Status" required="required" >
+                 <option value="Student">Student</option>
+                 <option value="Employed">Employed</option>
+                 <option value="Unemployed">Unemployed</option>
+               </select>
+             </label><br />
+              <label>Choose School<br />
+               <select name="Choose School" required="required">
+                 <option value="School of Data">School of Data</option>
+                 <option value="School of Engineering">School of Engineering</option>
+                 <option value="School of Product">School of Product</option>
+               </select>
+              </label><br />
+             <label>How did you hear about us? <br />
+              <select name="How did you hear about us?" required="required" >
+                <option  value="Social media">Social media</option>
+                <option value="Word of mouth">Word of mouth</option>
+              </select>
+              </label><br />
+            </div>
+
+            <div class="rightside form">
+                <!--Rightside form comes here-->
+             <label>Last Name <br />
+              <input type="text" name="Last Name" required="required" />
+             </label><br />
+             <label>Date of Birth <br />
+              <input type="date" name="Date of Birth" required="required" />
+             </label><br />
+             <label>Education level<br />
+               <select name="Education level" required="required" >
+                 <option value="Highschool leaving certificate">Highschool leaving certificate</option>
+                 <option value="NCE">NCE</option>
+                 <option value="B.Sc">B.Sc</option>
+                 <option value="HND">HND</option>
+               </select>
+             </label><br />
+             <label>State/City of Residence<br />
+              <input type="text" name="State/City of Residence" required="required" />
+             </label><br />
+             <label>Phone Number<br />
+              <input type="text" name="Phone Number" required="required" />
+             </label><br />   
+             <label>Choose Course of Study<br />
+               <select name="Choose Course Of Study" requireed="required">
+                 <option value="Backend engineering">Backend engineering</option>
+                 <option value="Cloud engineering">Cloud engineering</option>
+                 <option value="Data engineering">Data engineering</option>
+                 <option value="Data science">Data science</option>
+                 <option value="Frontend engineering">Frontend engineering</option>
+                 <option value="Product design">Product design</option>
+                 <option value="Product management">Product management</option>
+              </select>
+             </label><br />
+             <label>Scholarship/Discount Code<br />(optional)<br />
+              <input type="text" name="Scholarship/Discount Code" />
+             </label><br />
+             </div>
+            </div>
+
+         <p>By clicking continue, I agree to Terms of Use and acknowledge that<br /> I have read the Privacy Policy.</p>
+          <input type="submit" value="Proceed" />
+         <p>Already  have an account? <button>Sign In</button></p>
+   </fieldset>
+    <!--Form ends here-->
+    </main>
+</body>
+</html>
